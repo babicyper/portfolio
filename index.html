@@ -48,6 +48,7 @@
          .second{
              height:280px;
              width: 1200px;
+             text-align: justify;
              border-radius: 8px;
              display: inline-flex;
              margin: auto;
@@ -77,6 +78,7 @@
          .third{
              height:280px;
              width: 1200px;
+             text-align: justify;
              border-radius: 8px;
              display: inline-flex;
              margin: auto;
@@ -104,6 +106,7 @@
          .fourth{
              height:260px;
              width: 1200px;
+             text-align: justify;
              border-radius: 8px;
              display: inline-flex;
              margin: auto;
@@ -171,14 +174,14 @@
              border-radius: 8px;
          }
          body{
-             text-align:center;
+             text-align:center; 
          }
-         @media only screen and (max-width:360px){
+         @media only screen and (max-width:340px){
             .second{
             display: block;
             width: 100%;
             height: auto;
-            margin: auto;
+            margin: 0px;
             margin-top: 10%;
             }
             .sec{
@@ -189,7 +192,7 @@
             display: block;
             width: 100%;
             height: auto;
-            margin: auto;
+            margin: 0px;
             margin-top: 10%;
             }
             .thrd{
@@ -200,18 +203,18 @@
             display: block;
             width: 100%;
             height: auto;
-            margin: auto;
+            margin: 0px;
             margin-top: 10%;
             }
             .four{
                 height: fit-content;
-                width:100%;
+                width: 100%;
             }
             .last{
             display: block;
             width: 100%;
             height: auto;
-            margin: auto;
+            margin: 0px;
             margin-top: 10%;
             }
             .lst{
@@ -221,7 +224,9 @@
             progress{
                 width: 200px;
             }
-        
+            body{
+                margin: 0px;
+            }
         
          }
         </style>
@@ -258,20 +263,20 @@
 <div class="third">
     <div class="thrd">
     <b>My Skills</b><br><br>
-    <label for="html">HTML:</label><br>
+    <label for="html">HTML: 90%</label><br>
     <progress id="html" value="90" max="100"> 90% </progress><br>
-    <label for="css">CSS:</label><br>
+    <label for="css">CSS: 80%</label><br>
     <progress id="css" value="80" max="100"> 80% </progress><br>
-    <label for="js">JavaScript:</label><br>
+    <label for="js">JavaScript: 82%</label><br>
     <progress id="js" value="82" max="100"> 82% </progress><br>
     </div>
     <div class="thrd">
         <br><br>
-        <label for="php">PHP:</label><br>
+        <label for="php">PHP: 70%</label><br>
         <progress id="php" value="70" max="100"> 70% </progress><br>
-        <label for="python">Python:</label><br>
+        <label for="python">Python: 65%</label><br>
         <progress id="python" value="65" max="100"> 65% </progress><br>
-        <label for="hacking">Ethical Hacking:</label><br>
+        <label for="hacking">Ethical Hacking: 85%</label><br>
         <progress id="hacking" value="85" max="100"> 85% </progress><br>
     </div>
 </div>
@@ -301,7 +306,7 @@
     <textarea placeholder="Your message" id="message" required></textarea><br><br>
     <button onclick="check()">Send</button>
     </div>
-    <div class="lst">
+    <div class="lst" style="text-align: justify;">
     <br><br>
     <span>Address:</span><br>Nakhipot, Lalitpur<br><br>
     <span>Phone:</span><br>9808085221<br><br>
