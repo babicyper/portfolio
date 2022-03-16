@@ -342,6 +342,10 @@
     }else if(message == ""){
         alert("Please fill out all fields!");
     }else{
+        name.value = "";
+        phone.value = "";
+        email.value = "";
+        message.value = "";
         alert(`Thanks ${name}! Sent to Babi :)`)
     }
     }
