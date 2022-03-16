@@ -342,10 +342,10 @@
     }else if(message == ""){
         alert("Please fill out all fields!");
     }else{
-        name.innerHTML = "";
-        phone.innerHTML = "";
-        email.innerHTML = "";
-        message.innerHTML = "";
+        document.getElementById("name").innerHTML = "";
+        document.getElementById("phone").innerHTML = "";
+        document.getElementById("email").innerHTML = "";
+        document.getElementById("message").innerHTML = "";
         alert(`Thanks ${name}! Sent to Babi :)`)
     }
     }
